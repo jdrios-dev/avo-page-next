@@ -20,5 +20,5 @@
     "jsx": "preserve"
   },
   "exclude": ["node_modules"],
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/product/[id].jsx", "components/DetailsProduct/DetailsProduct.jsx"]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/product/[id].jsx", "components/DetailsProduct/DetailsProduct.jsx", "components/Card/Card.jsx"]
 }
