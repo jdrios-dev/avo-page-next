@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react'
-import { Card } from '@components/Card/Card'
-import fetch from 'isomorphic-unfetch'
+import React, { useEffect, useState } from 'react';
+import { Card } from '../components/Card/Card';
+import fetch from 'isomorphic-unfetch';
 
 const HomePage = () => {
-  const [productList, setProductList] = useState<TProduct>([])
+  const [productList, setProductList] = useState([])
 
   useEffect(() => {
     fetch('/api/avo')

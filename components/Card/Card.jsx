@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 
 export const Card = ({ product }) => {
-  const { name, image, id } = product
+  const { name, image, id } = product;
 
   return (
     <>

@@ -20,5 +20,5 @@
     "jsx": "preserve"
   },
   "exclude": ["node_modules"],
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/product/[id].jsx", "components/DetailsProduct/DetailsProduct.jsx", "components/Card/Card.jsx"]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/product/[id].jsx", "components/DetailsProduct/DetailsProduct.jsx", "components/Card/Card.jsx", "components/Layout/Layout.jsx", "pages/_app.jsx", "pages/index.jsx", "components/Navbar/Navbar.jsx", "pages/about/index.jsx", "pages/_document.jsx"]
 }
