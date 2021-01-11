@@ -5,13 +5,13 @@ import DetailsProduct from '@components/DetailsProduct/DetailsProduct'
 
 const ProductPage = () => {
   const { query } = useRouter()
-  const [product, setProduct] = useState<TProduct>([])
+  const [product, setProduct] = useState([])
 
   useEffect(() => {
     if (query.id) {
       fetch(`/api/avo/${query.id}`)
         .then((res) => res.json())
-        .then((data: TProduct) => {
+        .then((data) => {
           setProduct(data)
         })
     }
